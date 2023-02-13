@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 import pickle
-MODEL = pickle.load(open(r'C:\Django\Team_Final_Project\static\models\Final_Model.pkl', 'rb'))
+MODEL = pickle.load(open(r'C:\final_project\Diary\static\models\Final_Model.pkl', 'rb'))
 print("SETTINGS > Model Load 완료")
 
 
@@ -67,7 +67,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Team_Final_Project.urls'
+ROOT_URLCONF = 'final_project.urls'
 
 TEMPLATES = [
     {
@@ -85,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Team_Final_Project.wsgi.application'
+WSGI_APPLICATION = 'final_project.wsgi.application'
 
 
 # Database
