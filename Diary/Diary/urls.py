@@ -1,4 +1,4 @@
-"""Diary URL Configuration
+"""Team_Final_Project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -14,8 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
+from .views import Cal_t, Index2, Index, RegisterPage, BoardPage, UserCreateView,test, UserCreateDoneTV,login_view, change_password
+from django.contrib.auth import views as auth_view
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', test,name="main"),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('login/',login_view, name="login" ),
+    path('register/', UserCreateView.as_view(), name="register"),
+    path('register/done/', UserCreateDoneTV.as_view(), name = 'register_done'),
+    path('board/',include('EmotionBoard.urls')),
+    path('account/password_change', change_password, name="password_change"),
+    path('Account/', include('Account.urls')),
 ]
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
