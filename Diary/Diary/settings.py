@@ -38,12 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django',
-    'Account',
     'widget_tweaks',
     'crispy_forms',
     'crispy_bootstrap5',
     'django_extensions',
-    'EmotionBoard',
+    
 ]
 
 MIDDLEWARE = [
