@@ -27,4 +27,4 @@
 - ect : notion, slack
 
 # 시연영상
-<img width="500" src="https://user-images.githubusercontent.com/111493543/218655127-4eda3f6a-4d80-409d-8f68-ec98bc1a2c1f.gif"/>
+<img width="500" src="https://user-images.githubusercontent.com/111493543/218662297-59698ee6-0863-42aa-bf3c-7ae225e83061.mp4"/>
