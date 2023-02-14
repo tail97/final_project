@@ -28,4 +28,3 @@
 
 # 시연영상
 <img width="500" src="https://user-images.githubusercontent.com/111493543/218662297-59698ee6-0863-42aa-bf3c-7ae225e83061.mp4"/>
-- 발표자료
