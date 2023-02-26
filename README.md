@@ -28,3 +28,7 @@
 
 # 시연영상
 <img width="500" src="https://user-images.githubusercontent.com/111493543/218662297-59698ee6-0863-42aa-bf3c-7ae225e83061.mp4"/>
+
+# 트러블 슈팅
+
+https://hanbbang.notion.site/34828e2ab6154a56a2e6dfa1268fa7a5
