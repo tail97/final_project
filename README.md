@@ -19,6 +19,7 @@
 
 # ERD
 
+<img width = "500 src="https://user-images.githubusercontent.com/111493543/224724988-85454681-ebb1-4145-9125-4615227ed733.jpg"/ >
 
 
 
